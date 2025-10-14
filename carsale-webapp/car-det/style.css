@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #000 !important;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.navbar .nav-link:hover {
+  color: #ccc !important;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* Hero Section */
+.hero {
+  background: url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.hero .btn-group .btn {
+  margin: 10px;
+  font-size: 1.2rem;
+  padding: 15px 35px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+  color: white;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #333;
+}
+
+.hero .btn i {
+  margin-right: 10px;
+}
+
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
